@@ -1,0 +1,333 @@
+<html>
+    <head>
+        <head>
+            <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+            <script defer src="https://pyscript.net/latest/pyscript.js"></script>
+            
+        </head>
+    </head>
+    <body>
+        <H4>Authored by "ABDUL RAHMAN"</H4>
+        <script type = "text/javascript">alert ("ENTER NAME TO PRINT IN * PATTERN ",); </script>
+        <py-script>
+            #Authored by "ABDUL RAHMAN"
+s=input().strip()
+s=s.upper()
+print("\n")
+for i in s:
+    if i=="A":
+        #for A alphabet
+        st="";    
+        for row in range(0,7):    
+            for col in range(0,7):     
+                if (((col == 1 or col == 5) and row != 0) or ((row == 0 or row == 3) and (col > 1 and col < 5))):
+                    st+="*"    
+                else:      
+                    st+=" "    
+            st+="\n"
+        print(st,"\n")
+
+    elif i=="B":
+        #for B alphabet
+        st="";
+        for row in range(0,7):    
+            for col in range(0,7):     
+                if (((col == 1 or col == 5) and row != 0) or ((row == 0 or row == 3 or row == 6) and (col > 0 and col < 6))):
+                    st+="*"    
+                else:      
+                    st+=" "    
+            st += "\n"  
+        print(st,"\n");
+
+    elif i=="C":
+        #for C alphabet 
+        st="";    
+        for row in range(0,7):    
+            for col in range(0,7):     
+                if ((col == 1 and (row != 0 and row != 6)) or ((row == 0 or row == 6) and (col > 1 and col < 5)) or (col == 5 and (row == 1 or row == 5))): 
+                    st+="*"    
+                else:      
+                    st+=" "    
+            st+="\n"
+        print(st,"\n")
+
+    elif i=="D":
+        #for D alphabet
+        st="";
+        for row in range(0,7):    
+            for col in range(0,7):     
+                if (col == 1 or ((row == 0 or row == 6) and (col > 1 and col < 5)) or (col == 5 and row != 0 and row != 6)):
+                    st+="*"    
+                else:      
+                    st+=" "    
+            st += "\n"  
+        print(st,"\n");
+
+    elif i=="E":
+        #for E alphabet 
+        st="";    
+        for row in range(0,7):    
+            for col in range(0,7):     
+                if (col == 1 or ((row == 0 or row == 6) and (col > 1 and col < 6)) or (row == 3 and col > 1 and col < 5)): 
+                    st+="*"    
+                else:      
+                    st+=" "    
+            st+="\n"
+        print(st,"\n")
+
+    elif i=="F":
+        #for F alphabet 
+        st="";    
+        for row in range(0,7):    
+            for col in range(0,7):     
+                if (col == 1 or (row == 0 and col > 1 and col < 6) or (row == 3 and col > 1 and col < 5)): 
+                    st+="*"    
+                else:      
+                    st+=" "    
+            st+="\n"
+        print(st,"\n")
+
+    elif i=="G":
+        #for G alphabet 
+        st="";    
+        for row in range(0,7):    
+            for col in range(0,7):     
+                if ((col == 1 and row != 0 and row != 6) or ((row == 0 or row == 6) and col > 1 and col < 5) or (row == 3 and col > 2 and col < 6) or (col == 5 and row != 0 and row != 2 and row != 6)):  
+                    st+="*"    
+                else:      
+                    st+=" "    
+            st+="\n"
+        print(st,"\n")
+
+    elif i=="H":
+        #for H alphabet 
+        st="";    
+        for row in range(0,7):    
+            for col in range(0,7):     
+                if (((col == 1 or col == 5) ) or ((row == 3) and (col > 1 and col < 5))):
+                    st+="*"    
+                else:      
+                    st+=" "    
+            st+="\n"
+        print(st,"\n")
+
+    elif i=="I":
+        #for I alphabet 
+        st="";    
+        for row in range(0,7):    
+            for col in range(0,7):     
+                if (col == 3 or ((row == 0 or row==6) and col > 0 and col <6)):
+                    st+="*"    
+                else:      
+                    st+=" "    
+            st+="\n"
+        print(st,"\n")
+
+    elif i=="J":
+        #for J alphabet 
+        st="";    
+        for row in range(0,7):    
+            for col in range(0,7):     
+                if ((col == 4 and row != 6) or (row == 0 and col > 2 and col < 6) or (row == 6 and col == 3) or (row == 5 and col == 2)):
+                    st+="*"    
+                else:      
+                    st+=" "    
+            st+="\n"
+        print(st,"\n")
+
+    elif i=="K":
+        #for K alphabet 
+        st="";    
+        for row in range(0,7):    
+            for col in range(0,7):     
+                if (col == 1 or ((row == col + 1) and col != 0) or (row==0 and col==5) or (row==1 and col==4) or (row==2 and col==3)) :
+                    st+="*"    
+                else:      
+                    st+=" "    
+            st+="\n"
+        print(st,"\n")
+
+    elif i=="L":
+        #for L alphabet
+        st="";
+        for row in range(0,7):    
+            for col in range(0,7):     
+                if (((col == 1 )) or (row == 6 and col > 1 and col < 6)):
+                    st+="*"    
+                else:      
+                    st+=" "    
+            st += "\n"  
+        print(st,"\n");
+
+    elif i=="M":
+        #for M alphabet 
+        st="";    
+        for row in range(0,7):    
+            for col in range(0,7):     
+                if (col == 1 or col == 5 or (row == 2 and (col == 2 or col == 4)) or (row == 3 and col == 3)):
+                    st+="*"    
+                else:      
+                    st+=" "    
+            st+="\n"
+        print(st,"\n")
+
+    elif i=="N":
+        #for N alphabet 
+        st="";    
+        for row in range(0,7):    
+            for col in range(0,7):     
+                if (((col == 0 or col == 6) ) or ((row==col ))): 
+                    st+="*"    
+                else:      
+                    st+=" "    
+            st+="\n"
+        print(st,"\n")
+
+    elif i=="O":
+        #for O alphabet 
+        st="";    
+        for row in range(0,7):    
+            for col in range(0,7):     
+                if (((col == 1 or col == 5) and row != 0 and row != 6) or ((row == 0 or row == 6) and col > 1 and col < 5)):
+                    st+="*"    
+                else:      
+                    st+=" "    
+            st+="\n"
+        print(st,"\n")
+
+    elif i=="P":
+        #for P alphabet 
+        st="";    
+        for row in range(0,7):    
+            for col in range(0,7):     
+                if (col == 1 or ((row == 0 or row == 3) and col > 0 and col < 5) or ((col == 5 or col == 1) and (row == 1 or row == 2))):
+                    st+="*"    
+                else:      
+                    st+=" "    
+            st+="\n"
+        print(st,"\n")
+
+    elif i=="Q":
+        #for Q alphabet 
+        st="";    
+        for row in range(0,7):    
+            for col in range(0,7):     
+                if ((col == 1 and row != 0 and row != 6) or (row == 0 and col > 1 and col < 5) or (col == 5 and row != 0 and row != 5) or (row == 6 and col > 1 and col < 4) or (col == row - 1 and row > 3)):
+                    st+="*"    
+                else:      
+                    st+=" "    
+            st+="\n"
+        print(st,"\n")
+
+    elif i=="R":
+        #for R alphabet
+        st="";
+        for row in range(0,7):    
+            for col in range(0,7):     
+                if (col == 1 or ((row == 0 or row == 3) and col > 1 and col < 5) or (col == 5 and row != 0 and row < 3) or (col == row - 1 and row > 2)):
+                    st+="*"    
+                else:      
+                    st+=" "    
+            st += "\n"  
+        print(st,"\n")
+
+    elif i=="S":
+        #for S alphabet 
+        st="";    
+        for row in range(0,7):    
+            for col in range(0,7):     
+                if (((row == 0 or row == 3 or row == 6) and col > 1 and col < 5) or (col == 1 and (row == 1 or row == 2 or row == 6)) or (col == 5 and (row == 0 or row == 4 or row == 5))):
+                    st+="*"    
+                else:      
+                    st+=" "    
+            st+="\n"
+        print(st,"\n")
+
+    elif i=="T":
+        #for T alphabet 
+        st="";    
+        for row in range(0,7):    
+            for col in range(0,7):     
+                if (col == 3 or (row == 0 and col > 0 and col <6)):
+                    st+="*"    
+                else:      
+                    st+=" "    
+            st+="\n"
+        print(st,"\n")
+
+    elif i=="U":
+        #for U alphabet
+        st="";
+        for row in range(0,7):    
+            for col in range(0,7):     
+                if (((col == 1 or col == 5) and row != 6) or (row == 6 and col > 1 and col < 5)):
+                    st+="*"    
+                else:      
+                    st+=" "    
+            st += "\n"  
+        print(st,"\n");
+
+    elif i=="V":
+        #for V alphabet 
+        st="";    
+        for row in range(0,7):    
+            for col in range(0,7):     
+                if (((col == 1 or col == 5) and row < 5) or (row == 6 and col == 3) or (row == 5 and (col == 2 or col == 4))):
+                    st+="*"    
+                else:      
+                    st+=" "    
+            st+="\n"
+        print(st,"\n")
+
+    elif i=="W":
+        #for W alphabet 
+        st="";    
+        for row in range(0,7):    
+            for col in range(0,7):     
+                if (((col == 1 or col == 5) and row < 6) or ((row == 5 or row == 4) and col == 3) or (row == 6 and (col == 2 or col == 4))):
+                    st+="*"    
+                else:      
+                    st+=" "    
+            st+="\n"
+        print(st,"\n")
+
+    elif i=="X":
+        #for X alphabet 
+        st="";    
+        for row in range(0,7):    
+            for col in range(0,7):     
+                if (((col == 1 or col == 5) and (row > 4 or row < 2)) or row == col and col > 0 and col < 6 or (col == 2 and row == 4) or (col == 4 and row == 2)):
+                    st+="*"    
+                else:      
+                    st+=" "    
+            st+="\n"
+        print(st,"\n")
+
+    elif i=="Y":
+        #for Y alphabet 
+        st="";    
+        for row in range(0,7):    
+            for col in range(0,7):     
+                if (((col == 1 or col == 5) and row < 2) or row == col and col > 0 and col < 4 or (col == 4 and row == 2) or ((col == 3) and row > 3)):
+                    st+="*"    
+                else:      
+                    st+=" "    
+            st+="\n"
+        print(st,"\n")
+
+    elif i=="Z":
+        #for Z alphabet 
+        st="";    
+        for row in range(0,7):    
+            for col in range(0,7):     
+                if (((row == 0 or row == 6) and col >= 0 and col <= 6) or row+col==6): 
+                    st+="*"    
+                else:      
+                    st+=" "    
+            st+="\n"
+        print(st,"\n")
+
+
+        </py-script>
+    </body>
+</html>

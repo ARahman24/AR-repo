@@ -1,1 +1,5 @@
-Hi made file using git.
+two files :
+
+1. python code for printing a name in * pattern.
+
+2. html webpage for printing a name in * pattern.
